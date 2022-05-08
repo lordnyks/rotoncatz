@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MamunComponent } from './mamun/mamun.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MamunComponent
   ],
   imports: [
     BrowserModule,
